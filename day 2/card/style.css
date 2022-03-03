@@ -1,0 +1,43 @@
+/* reset css */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+ body{
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ img{
+     max-width: 100%;
+     display: block; 
+     margin: auto;
+ }
+ .card{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    width: 350px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.content h2{
+    padding: 20px;
+    color: #464646;
+    font-size: 19px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.content .type, .content .rating{
+    padding: 20px;
+    color: #757575;
+    font-size: 14.4px;
+    font-weight: 100;
+    
+}
+.content .rating i {
+    color: #ffd600 ;
+}

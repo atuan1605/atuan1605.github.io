@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!--  Internal style -->
+    <style>
+        h1 {
+            color: green;
+        }
+
+        p {
+            color: blueviolet;
+        }
+
+        #para {
+            color: aqua;
+        }
+
+        .content {
+            color: tomato;
+        }
+
+        h2.content {
+            color: rgb(211, 34, 211);
+        }
+
+        h2.content.text {
+            color: rgb(131, 87, 33);
+        }
+
+        #heading {
+            color: bisque;
+
+        }
+        /* chọn tất cả thẻ p nằm trong class card-content có thẻ div nằm trong class card */
+        .card div.card-content p{
+            color: rgb(6, 71, 4);
+        }
+    </style>
+    <!--  (ctrl vs phím/) -->
+    <!-- thứ tự ưu tiên dưới rồi mới đến trên -->
+    <!-- id ưu tiên hơn class -->
+    <!-- selector specificity (id,class,thẻ) -->
+    <!-- càng chọn cụ thể thì càng đc ưu tiên -->
+</head>
+
+<body>
+    <h1 style="color: brown;"> Đây là thẻ heading</h1>
+
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, hic dolores velit tempore soluta
+        maiores, quas
+        consectetur quibusdam ratione, maxime corporis suscipit? Cum at voluptate facere nihil consequatur, hic neque!
+    </p>
+
+    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reprehenderit id saepe consequatur
+        iure et omnis,
+        facilis recusandae totam enim minus, repellat itaque ipsa, beatae aperiam ab magnam. Necessitatibus, saepe!
+    </p>
+
+    <h2 class="content text" id="heading"> Đây là thẻ h2</h2>
+
+    <!-- không thể chon p vì khó xác định phải chọn từ tệp cha là class card-content -->
+    <div class="card">
+        <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam odio cum id, iure sunt dicta quasi neque
+                sed
+                optio tempore deleniti eligendi voluptatem, magni amet omnis ab exercitationem similique fuga.</p>
+        </div>
+        <div class="card-info">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nulla cumque nesciunt magnam earum beatae
+                ad. Quis quos ipsum, amet neque expedita unde perferendis atque maxime corporis praesentium facilis
+                commodi!</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
