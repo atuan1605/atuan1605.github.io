@@ -70,3 +70,11 @@ hãy xem **tôi hack** ntn ``nhé``
 </body>
 </html>
 ```
+
+`HTML` đã kinh khủng r, `CSS`
+
+```css
+h1{
+    color: blue;
+}
+```
