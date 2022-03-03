@@ -8,6 +8,7 @@ hãy xem **tôi hack** ntn ``nhé``
 - bài 1: [xem chi tiết](./day 1/)
 - bài 2:[xem chi tiết ](./day 2/)
 
+ ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,3 +69,4 @@ hãy xem **tôi hack** ntn ``nhé``
     
 </body>
 </html>
+```
