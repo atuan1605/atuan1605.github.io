@@ -1,0 +1,11 @@
+*{
+    text-align: center;
+}
+.card{
+    border: 10px solid rgb(149, 111, 229);
+    margin: auto;
+    margin-top: 60px;
+    width: 642px;
+    height: 648px;
+    padding: 50px;
+}
