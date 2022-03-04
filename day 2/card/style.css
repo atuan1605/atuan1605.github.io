@@ -15,8 +15,7 @@
      margin: auto;
  }
  .card{
-    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
-    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
     width: 350px;
     border-radius: 4px;
     margin: auto;
