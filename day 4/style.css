@@ -1,0 +1,58 @@
+.container{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    /* căn chỉnh theo chiều của trục main */
+     justify-content: center ; 
+    /* căn chỉnh theo chiều của trục cross */
+    align-items: ;
+    /* align-items: baseline   ; */
+    /* baseline căn theo phần dưới nội dung của thẻ child */
+    height: 1000px; 
+
+    flex-wrap: wrap-reverse;
+
+    align-content: center;
+}
+
+.item{
+    display: flex;
+    width:  200px;
+    height: 200px;
+    background-color: blue;
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center ; 
+
+    /*  
+    text-align: center;
+    line-height: 200px;
+    */
+}
+/* .item1{
+    font-size: 4rem;
+}
+.item3{
+    font-size: 6rem;
+} */
+.item1{
+    order: 2;
+    /* flex-grow chia % (khoảng cách thừa, không phải kích cỡ của item) nhiều hơn cho số to hơn */
+    /* shrink thì ngược lại */
+    flex-grow: 2;
+    /* align-self bị ảnh hưởng bởi flex-warp   */
+    align-self: flex-end;
+}
+.item3{
+    /* xét kích thước phần tử phụ thuộc vào trục main */
+    flex-basis: 50%;
+    order: -1;
+    /* được áp dụng khi tổng kích thước tệp con < tệp cha */
+    flex-grow: 1 ;
+    /* viết tắt: grow shrink basic
+    flex: 1 1 300px
+    */
+
+}

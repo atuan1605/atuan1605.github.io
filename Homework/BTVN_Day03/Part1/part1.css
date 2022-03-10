@@ -1,17 +1,23 @@
 *{  
     font-family: 'Roboto', sans-serif ;
-    margin: auto;
-    width: 349px;
     text-align: center;
     box-sizing: border-box;
 }
-.card{
+.all{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between
+}
+.all >.card{
+    margin: 20px 20px 0;
+    flex-basis: 150px;
     box-shadow: 0 5px 5px rgb(0 0 0 / 15%);
     border-radius: 4px;
-    margin-top: 30px;
-    overflow: hidden;
 }
-.card .top{
+.child > .top{
+    
     border-radius: 4px;
     color: #fff;
     height: 160px;
@@ -32,10 +38,14 @@ li{
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     padding-top: 22px;
-    position:absolute;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
     text-align: center;
 }
 .dmonth > .day{
+    
+    text-align: center;
     font-size: 40px;   
 }
 .dmonth > .month{

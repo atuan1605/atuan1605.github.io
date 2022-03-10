@@ -1,7 +1,6 @@
-/* reset css */
 *{
     text-align: center;
-    background-color: #464646;
+    
     box-sizing: border-box;
     width: 100%;
     
@@ -10,23 +9,35 @@
     font-weight: 400;   
 }
 .card{
-    padding-top: 15px;
+    background-color: #464646;
+    display: flex;
+    justify-content:center;
+    flex-wrap: no-warp;
+    align-items:center;
+    
     padding-bottom: 48px;
-    width: 426.4px;
-    margin: auto;
+    
+    
+}
+.part1{
+    text-align: left;
+    text-align: left;
+    
 }
 .part1 h4{
+    text-align: left;
     font-family: Roboto,sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: rgb(255, 255, 255);
-    margin-bottom: 16px;
+    
 }
 .part1 p{ 
+    text-align: left;
     display: block;
     font-family: Roboto,sans-serif;       
 }
-.part1 p a{   
+.part1 p a{ 
     display: inline;
     text-decoration: none;
     font-size: 14px;
@@ -36,7 +47,9 @@
 .part1 p a:hover{
     text-decoration: underline;
 }
+
 .part1 .part2 p {   
+   
     padding-left: 15px;
     padding-bottom: 15px;
     height: 50px;
@@ -47,10 +60,12 @@
     justify-content: space-evenly;
 }
 .part1 .part2 p i{
+    
     font-size: 2em;
     font-weight: 100;
     
 }
+.part1> .note{
+    align-items:center
 
-    
-
+}
