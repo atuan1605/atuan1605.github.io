@@ -46,8 +46,9 @@
   border-bottom: 1px solid #f4f4f4;
 }
 .support .spl a img {
-    
+    max-width: 150px;
   border-radius: 100px;
+  overflow: hidden;
 }
 .support .spr {
   margin-left: 1rem;

@@ -1,6 +1,8 @@
 html,body{
     margin: 0;
-    object-fit :
+    padding: 0;
+    background-color: #f4f7fa;
+    
 }
 * {
   color: #464646;
@@ -15,12 +17,14 @@ html,body{
   
 }
 .card {
-    margin: auto;
+  margin: auto;
   max-width: 1250px;
   padding: 3rem 15px;
+  display: flex;
+  
 }
 .part1 {
-    
+  flex-basis:90%; 
   width: 100%;
   margin: auto;
   margin-top: 62px;
@@ -29,10 +33,12 @@ html,body{
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .list > .page {
+  position: relative;
+  top:  -15px;
   box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
   border-radius: 4px;
   overflow: hidden;
@@ -146,4 +152,27 @@ html,body{
     font-weight: 100;
     color: rgb(145, 146, 148);
     
+}
+.part1>.find{
+  position: relative;
+  top:-40px;
+  left: 35px; 
+  display: flex;
+}
+.find>input{
+  width: 291.66px;
+  height: 32px;
+  padding: 8px;
+  border-radius: 4px;
+  
+  border: 1px none #5e5e5e;
+  box-shadow:  1px 2px rgb(0 0 0 / 15%);
+  font-size: 14px;
+}
+.find span i{
+  font-size: 1rem;
+  position: relative;
+  top: 4px;
+  left: -20px;
+  color: #bebdbd;
 }
