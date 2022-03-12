@@ -43,7 +43,10 @@ ul{
     font-size: 14.4px;
     font-weight: 400;
     font-family: 'Roboto',sans-serif;
-       
+     cursor: pointer;  
+}
+.menu > ul > li>a{
+    color: #fff;
 }
 
 .sub-menu{
@@ -74,6 +77,7 @@ ul{
     color: #fff;
 }
 .avatar  img{
+    cursor: pointer;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -176,4 +180,5 @@ ul{
     border: 2px solid #3c78e8;
     margin-bottom: 5px;
     color: #0084ff !important;
+    background-color: #0084ff   ;
 }
