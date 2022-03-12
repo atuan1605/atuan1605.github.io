@@ -156,11 +156,11 @@ html,body{
 .part1>.find{
   position: relative;
   top:-40px;
-  left: 35px; 
+  left: 15px; 
   display: flex;
 }
 .find>input{
-  width: 291.66px;
+  width: 301px;
   height: 32px;
   padding: 8px;
   border-radius: 4px;
