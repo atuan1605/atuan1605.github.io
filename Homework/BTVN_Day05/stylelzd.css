@@ -84,6 +84,7 @@ button>i{
     position: absolute;
     left: 40px;
     width: 200px
+    position: relative;
 } 
 .imgmenu{
     height: 324px;
@@ -99,7 +100,7 @@ button>i{
 .menu-item {
     width: 200px;
     box-sizing: border-box;
-    position: relative;
+    height: 100%;
 }
 .header>.lastimg>img{
     width: 188px;
@@ -116,7 +117,7 @@ button>i{
     line-height: 27px;
     text-decoration: none;
     font-size: 13px;
-
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -139,6 +140,7 @@ button>i{
 
 .sub-menu {
     width: 200px;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 200px;

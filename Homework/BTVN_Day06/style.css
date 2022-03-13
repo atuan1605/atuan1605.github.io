@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+.card {
+  position: relative;
+  background-color: #fff;
+  width: 300px;
+  height: 400px;
+  /* box-shadow: 0 10px 15px rgb(0 0 0 / 15%); */
+   overflow: hidden; 
+  z-index: 3;
+}
+.header {
+  height: 300px;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  opacity: 1;
+  transition-duration: 1s;
+  z-index: -100;
+}
+.card:hover img{
+    object-fit: cover;
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.header > .calendar {
+  width: 40px;
+  height: 40px;
+  background-color: tomato;
+  border-radius: 50%;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -295px;
+  right: -250px;
+}
+.calendar > span {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+}
+.body {
+  position: relative;
+  background-color: #fff;
+  height: 100px;
+  margin-top: 100px;
+  top: -100px;
+  transition: all 1.5s;
+}
+.card:hover .body{
+  margin: 0;
+  z-index: 300;
+}
+
+
+.note {
+  background-color: tomato;
+  color: white;
+  width: 60px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  font-size: 11px;
+}
+.title {
+    background-color: #fff;
+  position: absolute;
+  
+}
+
+.both > .part1 {
+    padding-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.both > .part2 {
+    padding-top: 5px;
+  color: tomato;
+}
+.title > .part3 {
+    
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.final {
+  position: relative;
+  font-size: 9px;
+  background-color: #fff;
+  color: #757575;
+  top:  185px;
+  right: 300px;
+  width: 300px;
+  height: 30px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+.both{
+    width: 300px;
+    height: 70px;
+    background-color: #fff;
+    z-index: 5;
+}
