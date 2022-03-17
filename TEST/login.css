@@ -1,0 +1,40 @@
+.login{
+    position: absolute;
+    width: 370px;
+    height: 204.8px;
+    
+    top:250px;
+    right:570px;
+    text-align: center;
+}
+
+.login>p{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+}
+.login>.login-input>input{
+    width: 328px;
+    height: 40px;
+    padding-left: 15px;
+    
+}
+.login>.inputorforgot>button{
+    background-color: rgb(216, 176, 15);
+    color: aliceblue;
+    width: 164px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid ;
+}
+
+.login>span{
+    color: rgb(149, 152, 152);
+    font-size: medium;
+  position: relative;
+  top: 20px;
+}
+.login>span>a{
+    font-weight: 400;
+    color: black;
+}
