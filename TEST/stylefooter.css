@@ -94,6 +94,9 @@
     align-items:baseline;
     color: aliceblue;
 }
+.footer-contact>p>span>a{
+    color: aliceblue;
+}
 .footer>.footer-img{
     width: 1082px;
     height: 97px;
