@@ -62,6 +62,9 @@ p{
   cursor: pointer;
   transition: all 1s;
 }
+.header-icon > .header-button > .button1>a{
+  color: aliceblue ;
+}
 .header-icon > .header-button > .button1:hover {
   background-color: rgb(204, 180, 83);
 }
