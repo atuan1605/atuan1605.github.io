@@ -60,7 +60,7 @@ p{
   font-size: 16px;
   color: aliceblue;
   cursor: pointer;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 .header-icon > .header-button > .button1>a{
   color: aliceblue ;
@@ -77,12 +77,16 @@ p{
   font-size: 16px;
   color: aliceblue;
   cursor: pointer;
-  transition: all 1s;
+  transition: all 0.5s;
+}
+.header-icon > .header-button > .button2>a{
+  color: rgb(216, 176, 15);
 }
 .header-icon > .header-button > .button2:hover {
   background-color: aliceblue;
-  color: rgb(33, 32, 32);
+  color: rgb(216, 176, 15);
 }
+
 
 .header-icon > .search-icon {
   font-size: 20px;
@@ -282,3 +286,40 @@ p{
   align-items: center;
 }
 
+
+/* .menu-top>.menu-right{
+  background-color: aliceblue;
+  height: 100%;
+  width: 280px;
+} */
+.menu-top > .menu-right{
+  color: aliceblue;
+    font-size: 1.3em;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.menu-right>.web1{
+  width: 230px;
+  height: 25.48px;
+  padding: 10px 25px;
+  margin-top: 20px;
+  background-color:rgb(216, 176, 15) ;
+}
+.menu-right>.web{
+  width: 230px;
+  height: 25.48px;
+  padding: 10px 25px;
+  margin-top: 1px;
+  background-color:aliceblue ;
+  color: black;
+  
+}
+.menu-right>.web>a{
+  color: black;
+}
+.menu-right>.web1>a{
+  color: aliceblue;
+}
