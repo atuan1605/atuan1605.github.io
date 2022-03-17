@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: aliceblue;
+  line-height: 1.4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  position: relative;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+p{
+    color: black;
+}
+.header {
+  background-color: rgb(33, 32, 32);
+  padding: 20px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: auto;
+  height: 45.31px;
+  display: flex;
+
+  align-items: center;
+}
+.logo {
+  flex-basis: 25%;
+}
+
+.contact {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-child {
+  display: flex;
+  margin: 0 25px 0 0;
+  flex-basis: calc(25%-25px);
+  justify-content: center;
+  align-items: center;
+}
+.header-icon {
+  font-size: 16px;
+  display: flex;
+  flex-basis: 35%;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-icon > .header-button > .button1 {
+  background-color: rgb(216, 176, 15);
+  border: none;
+  width: 100px;
+  height: 35px;
+  font-size: 16px;
+  color: aliceblue;
+  cursor: pointer;
+  transition: all 1s;
+}
+.header-icon > .header-button > .button1:hover {
+  background-color: rgb(204, 180, 83);
+}
+
+.header-icon > .header-button > .button2 {
+  background-color: rgb(33, 32, 32);
+  border: 1px solid aliceblue;
+  width: 100px;
+  height: 35px;
+  font-size: 16px;
+  color: aliceblue;
+  cursor: pointer;
+  transition: all 1s;
+}
+.header-icon > .header-button > .button2:hover {
+  background-color: aliceblue;
+  color: rgb(33, 32, 32);
+}
+
+.header-icon > .search-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+.header-icon > .cart-icon {
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.header-icon > .cart-icon > .number {
+  background-color: rgb(216, 176, 15);
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.25px 3.5px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: 15px;
+}
+.header-icon > .menu-icon {
+  font-size: 20px;
+  position: relative;
+  right: -15px;
+  cursor: pointer;
+}
+.mainbody > .link {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: none;
+  z-index: 999999;
+  width: 165px;
+  height: 225px;
+  top: 200px;
+  right: -125px;
+}
+.mainbody > .link > .link-icon>.zalo {
+  position: relative;
+  padding: 8px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+  flex-basis: calc(25%-5px);
+  background-color: aliceblue;
+  border: 1px solid rgb(225, 225, 225);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mainbody > .link > .link-icon>.message {
+    position: relative;
+    padding: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    flex-basis: calc(25%-5px);
+    background-color: aliceblue;
+    border: 1px solid rgb(225, 225, 225);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .mainbody > .link > .link-icon>.youtube {
+    position: relative;
+    padding: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    flex-basis: calc(25%-5px);
+    background-color: aliceblue;
+    border: 1px solid rgb(225, 225, 225);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .mainbody > .link > .link-icon>.insta {
+    position: relative;
+    padding: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    flex-basis: calc(25%-5px);
+    background-color: aliceblue;
+    border: 1px solid rgb(225, 225, 225);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .mainbody > .link > .link-icon>.twitter {
+    position: relative;
+    padding: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    flex-basis: calc(25%-5px);
+    background-color: aliceblue;
+    border: 1px solid rgb(225, 225, 225);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+.zalo > p {
+  color: black;
+  
+}
+.youtube1 > a > img {
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+}
+.zalo1 > a > img {
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+}
+.message1 > a > img {
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+}
+.insta1 > a > img {
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+}
+.twitter1 > a > img {
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+}
+.link-icon > .zalo {
+  position: relative;
+  right: 0;
+  transition: all 1s;
+}
+.zalo:hover {
+  right: 80px;
+}
+.link-icon > .youtube {
+    position: relative;
+    right: 0;
+    transition: all 1s;
+  }
+  .youtube:hover {
+    right: 80px;
+  }
+  .link-icon > .message {
+    position: relative;
+    right: 0;
+    transition: all 1s;
+  }
+  .message:hover {
+    right: 80px;
+  }
+  .link-icon > .insta {
+    position: relative;
+    right: 0;
+    transition: all 1s;
+  }
+  .insta:hover {
+    right: 80px;
+  }
+  .link-icon > .twitter {
+    position: relative;
+    right: 0;
+    transition: all 1s;
+  }
+  .twitter:hover {
+    right: 80px;
+  }
+
+.zalo1>a{
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.message1>a{
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.youtube1>a{
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.insta1>a{
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitter1>a{
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

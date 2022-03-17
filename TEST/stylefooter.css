@@ -1,0 +1,131 @@
+.footer{
+    
+    position: relative;
+    max-width: auto;
+    height: 720px;
+   box-sizing: border-box;
+   background-color: rgb(216, 176, 15) ;
+   top:600px;
+   padding-top: 40px;
+   padding-bottom: 10px;
+}
+.footer>.footer-head{
+    
+    height: 490px;
+}
+.footer-head>.footer-note{
+    
+    width: 1140px;
+    height: 490px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-note>.footer-sign{
+    color: black;
+    height: 100%;
+    flex-basis: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-sign>h3{
+    font-family: "Playfair Display", serif;
+    font-size: 29.5643px;
+    font-weight: 500;
+}
+.footer-sign>input{
+    width: 451px;
+    height: 26px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(37, 42, 43);
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif ;
+    border: none;
+}
+.footer-sign>textarea{
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(37, 42, 43);
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif ;
+}
+.footer-sign>.footer-button{
+    border: none;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    
+}
+.footer-sign>.footer-button>button{
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    width: 86px;
+    height: 43px;
+}
+.footer-note>.footer-info{
+    
+    height: 100%;
+    flex-basis: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-note>.footer-info>h3{
+    font-family: "Playfair Display", serif;
+    font-size: 29.5643px;
+    font-weight: 500;   
+    color: black;
+}
+.footer-contact>p{
+    display: flex;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    line-height: 2;
+    justify-content: left ;
+    align-items:baseline;
+    color: aliceblue;
+}
+.footer>.footer-img{
+    width: 1082px;
+    height: 97px;
+    margin: auto;
+    text-align: center;
+}
+.footer>hr{
+    border: none;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+.footer>.footer-final{
+    
+    margin-top: 40px;
+    width: auto;
+    height: 43px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer>.footer-final>.footer-final-child{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style-type: none;
+   
+}
+.footer>.footer-final>ul>li{
+    cursor: pointer;
+}
+.footer>.footer-final>ul>li>a{
+    font-size: 17px;
+    line-height: 27px;
+    padding: 0 25px;
+    font-weight: 500;
+    color: aliceblue;
+}

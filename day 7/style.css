@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+
+    /* animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative; */
+    animation: animation 4s 2s forwards;
+    position: relative;
+}
+/* keyframes tên animation */
+/* có thể thay % bằng from to */
+@keyframes animation{
+    0%{  top:0;
+        left: 0;
+        background-color: black;
+    }
+      
+    25%{
+        top:0;
+        left: 200px;
+        background-color: brown;
+    }
+    50%{
+        top:200px;
+        left: 200px;
+        background-color: brown;
+    }
+   100% {
+        top:200px;
+        left: 0px;
+        background-color: blue;
+        
+    }
+
+}
