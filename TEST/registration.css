@@ -28,13 +28,13 @@
     border: 1px solid ;
 }
 
-.login>span{
+.login > span{
     color: rgb(149, 152, 152);
     font-size: medium;
   position: relative;
   top: 20px;
 }
-.login>span>a{
+.login > span > a{
     font-weight: 400;
     color: black;
 }
