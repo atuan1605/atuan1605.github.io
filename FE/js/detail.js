@@ -1,5 +1,5 @@
-const URL_API = "http://localhost:8015/api/course";
-const URL_SUPPORTER_API = "http://localhost:8015/api/supporter";
+const URL_API = "https://course-api-springboot.herokuapp.com/api/course";
+const URL_SUPPORTER_API = "https://course-api-springboot.herokuapp.com/api/supporter";
 
 const linkParams = new URLSearchParams(window.location.search)
 

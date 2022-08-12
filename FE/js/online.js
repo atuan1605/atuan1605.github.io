@@ -1,4 +1,4 @@
-const URL_API = "http://localhost:8015/api/courses?type=online"
+const URL_API = "https://course-api-springboot.herokuapp.com/api/courses?type=online"
 let SUB_URL = "";
 //truy cap cac thanh phan
 const courseTopicEl = document.querySelector(".col-md-3");
