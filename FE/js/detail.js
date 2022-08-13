@@ -2,18 +2,19 @@ const URL_API = "https://course-api-springboot.herokuapp.com/api/course"
 const URL_SUPPORTER_API = "https://course-api-springboot.herokuapp.com/api/supporter";
 
 const linkParams = new URLSearchParams(window.location.search)
+let id = linkParams.get("id");
 
 // khoa hoc
 const breadcrumbEl = document.querySelector(".breadcrumb");
 const titleEl = document.querySelector(".course-title");
-const descriptionEl = document.querySelector("course-description");
+const descriptionEl = document.querySelector(".course-description");
 
 //supporter
 const supporterEl = document.querySelector(".supporter");
 
 // thong tin khoa hoc
-const getCourseAPI = () =>{
-    let id = linkParams.get("id");
+const getCourseAPI = (id) =>{
+    
     console.log(id);
     return axios.get(`${URL_API}?id=${id}`);
 }
@@ -24,9 +25,9 @@ const getSupporterAPI = (id) =>{
     return res;
 }
 
-const getCourse = async () => {
+const getCourse = async (id) => {
     try {
-        let course = await getCourseAPI();
+        let course = await getCourseAPI(id);
         console.log(course.data);
        
         let supporter = await getSupporterAPI(course.data.supporterId)
@@ -77,4 +78,4 @@ const renderCourse = (course, target) => {
 
 
 
-getCourse(); 
+getCourse(id); 
