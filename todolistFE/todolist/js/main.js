@@ -1,4 +1,4 @@
-const URL_API = "https://todolist-api-project.herokuapp.com//api/v1/todos"
+const URL_API = "https://todolist-api-project.herokuapp.com/api/v1/todos"
 //truy cap cac thanh phan
 const todoListEl = document.querySelector(".todo-list");
 const todoInput = document.getElementById("todo-input");
